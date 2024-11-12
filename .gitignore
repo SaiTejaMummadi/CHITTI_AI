@@ -1,3 +1,5 @@
 /myenv
 .env
 /chittimvp/database.db
+
+**/__pycache__/*
