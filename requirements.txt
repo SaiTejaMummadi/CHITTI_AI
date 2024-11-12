@@ -1,0 +1,17 @@
+openai
+python-dotenv
+streamlit
+pymongo
+langchain
+langgraph
+pymongo
+werkzeug
+
+
+langchain
+langchain_community
+langchain_core
+langchain_openai
+langchain_anthropic
+langchain_mistralai
+langchain_groq
