@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import os
 
 # Sample function to get response from LLM
-def get_response_from_llm(user_query, model_choice='gpt-4o-mini'):
+def get_response_from_llm(user_query, language_choice='English', model_choice = 'gpt-4o-mini'):
     load_dotenv()
 
     template = """
