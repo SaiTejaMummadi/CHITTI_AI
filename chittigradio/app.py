@@ -149,12 +149,13 @@ custom_css = """
 """
 
 with gr.Blocks(css=custom_css) as demo:
-    gr.Markdown("# 🎙️ Groq x Gradio Multi-Modal Llama-3.2 and Whisper")
+    gr.Markdown("# 🎙️ CHITTI - General Purpose Multilingual AGENT")
+    gr.Markdown("## Supports Hindi, English, and Telugu")
 
     with gr.Tab("Audio"):
         gr.Markdown("## Speak to the AI")
         with gr.Row():
-            audio_input = gr.Audio(type="numpy", label="Speak or Upload Audio")
+            audio_input = gr.Audio(sources = [ 'microphone','upload'],type="numpy", label="Speak or Upload Audio")
         with gr.Row():
             transcription_output = gr.Textbox(label="Transcription")
             response_output = gr.Textbox(label="AI Assistant Response")
